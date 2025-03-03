@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="author" content="Taran Knipp">
+    <meta name="description" content="Get in touch with Stillness Summit. Contact us for inquiries, reservations, and assistance in planning your perfect getaway.">
+    <title>Stillness Summit | Contact</title>
+    <link rel="icon" href="favicon.ico" type="image/x-icon">
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://use.typekit.net/lfi1svq.css">
+</head>
+<body>
+    <header>
+        <h1><a href="index.html">Stillness Summit</a></h1>
+        <nav>
+            <a href="index.html">Home</a>
+            <a href="#">Accommodations</a>
+            <a href="contact.html">Contact</a>
+        </nav>
+    </header>
+    
+    <div class="hero">
+        <img src="images/swiss-valley.jpg" alt="Breathtaking view of the Swiss Alps valley at sunset" width="2560" height="350">
+    </div>
+    
+    <main class="content">
+        <h2>Contact Us</h2>
+        <p>Please reach out to us with any questions or concerns. We are happy to help you plan your dream vacation with us!<br>Required fields marked with a *</p>
+        
+        <div class="content-section">
+            <img src="images/swiss-peak.jpg" alt="Majestic Swiss peak at sunrise" width="300" height="200">
+            <form action="https://wp.zybooks.com/form-viewer.php" method="post">
+                <label for="full-name">Full Name*:</label>
+                <input type="text" id="full-name" name="full-name" required>
+                
+                <label for="email">Email Address*:</label>
+                <input type="email" id="email" name="email" required>
+                
+                <label for="phone">Phone Number*:</label>
+                <input type="tel" id="phone" name="phone" required>
+                
+                <fieldset>
+                    <legend>Preferred Contact Method*:</legend>
+                    <input type="radio" id="contact-email" name="contact-method" value="email" required>
+                    <label for="contact-email">Email</label>
+                    
+                    <input type="radio" id="contact-phone" name="contact-method" value="phone" required>
+                    <label for="contact-phone">Phone</label>
+                </fieldset>
+                
+                <label for="comments">Comments*:</label>
+                <textarea id="comments" name="comments" required></textarea>
+                
+                <button type="submit">Submit</button>
+            </form>
+        </div>
+    </main>
+    
+    <div class="footer">
+        <p>Copyright &copy; 2025 Stillness Summit.</p>
+        <p>This site is for educational purposes only.</p>
+    </div>
+</body>
+</html>
